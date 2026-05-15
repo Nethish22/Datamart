@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Datamartproject"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": "integrated security=True;Data Source=DESKTOP-P24AOKF\\SQLEXPRESS01;Initial Catalog=@{linkedService().database}"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datamartcontainer.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "DESKTOP-P24AOKF\\ChandanS"
+		}
+	}
+}
