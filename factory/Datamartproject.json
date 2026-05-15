@@ -1,0 +1,15 @@
+{
+	"name": "Datamartproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7034075d-28cb-454c-b6e8-bb6dd41bc9cd",
+		"tenantId": "3f4fc6ee-db10-4d61-a057-47102c542984"
+	}
+}

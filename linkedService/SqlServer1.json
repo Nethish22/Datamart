@@ -1,0 +1,22 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"database": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-P24AOKF\\SQLEXPRESS01;initial catalog=@{linkedService().database}",
+			"userName": "DESKTOP-P24AOKF\\ChandanS",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiZjQ1Y2RlYy0zN2ZiLTQ5NjctYTY1Yi1mNTJlMDY4ODU0MDQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR-SelfHostedIntigrationRunTime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name": "SHIR-SelfHostedIntigrationRunTime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
